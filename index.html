@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ombretta's solid</title>
+        <style>
+            body { padding:20px; }
+            canvas {
+                border: 1px solid black;
+                box-shadow: 5px 5px 5px gray;
+                width: 600px;
+                height: 600px;
+            }
+            .signature {
+              text-align: right;
+              font-size:smaller;
+            }
+            #main {
+                display:flex;
+                flex-direction: row;
+            }
+            #right-column {
+                margin-left:30px;
+                min-width: 300px;
+            }
+        </style>
+        <script src="babylon.js"></script>
+        <script src="common.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <canvas id="c"></canvas>        
+        </div>
+    </body>
+</html>
